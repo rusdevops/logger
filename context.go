@@ -4,8 +4,10 @@ import (
 	"context"
 )
 
+type contextKeyType = string
+
 const (
-	contextKey = "logger"
+	contextKey contextKeyType = "logger|a809358f-7e86-4d8f-9959-054c66b6095c"
 )
 
 func NewContext(ctx context.Context, log *Logger) context.Context {
