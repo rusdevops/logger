@@ -4,7 +4,7 @@ import (
 	"context"
 )
 
-type contextKeyType = string
+type contextKeyType string
 
 const (
 	contextKey contextKeyType = "logger|a809358f-7e86-4d8f-9959-054c66b6095c"
